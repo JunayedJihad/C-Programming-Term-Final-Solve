@@ -2,7 +2,6 @@
 int main()
 {
      float mark, grade;
-     int a;
      printf("Enter the mark: ");
      scanf("%f", &mark);
      if (mark > 100 || mark < 0){
@@ -10,7 +9,7 @@ int main()
           return -1;
      }
 
-     a = mark / 10;
+     int a = mark / 10;
      switch (a)
      {
      case 10:
